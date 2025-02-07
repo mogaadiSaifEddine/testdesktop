@@ -28,6 +28,9 @@
         "zip"
       ],
       "icon": "build/icon.icns",
+      "artifactName": "${productName}-${version}-${arch}.${ext}",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
       "category": "public.app-category.utilities"
     },
     "nsis": {
